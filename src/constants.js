@@ -1,5 +1,5 @@
 export const TOKEN_KEY = "TOKEN_KEY";
-export const API_ROOT = "http://social-plus-289613.ue.r.appspot.com";
+export const API_ROOT = "https://social-plus-287400.wn.r.appspot.com";
 
 export const GEO_OPTIONS = {
   enableHighAccuracy: true,
