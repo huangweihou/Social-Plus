@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cb304833c877c761a6b55f4db0c4322d",
+    "revision": "0a51108382094dd7b014b88c18d2c310",
     "url": "/Social-Plus/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Social-Plus/static/css/2.48db8b0f.chunk.css"
   },
   {
-    "revision": "fcaec1e2b27a40fff0c0",
+    "revision": "4c525115f919173e4718",
     "url": "/Social-Plus/static/css/main.9545a5bf.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Social-Plus/static/js/2.aef2db72.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fcaec1e2b27a40fff0c0",
-    "url": "/Social-Plus/static/js/main.c69db030.chunk.js"
+    "revision": "4c525115f919173e4718",
+    "url": "/Social-Plus/static/js/main.d62d1417.chunk.js"
   },
   {
     "revision": "8972cceac73fd7e6a9ab",
