@@ -22,7 +22,7 @@ const (
 	POST_INDEX  = "post"
 	DISTANCE    = "200km"
 	BUCKET_NAME = "weihou-bucket"
-	ES_URL      = "http://34.71.50.49:9200"
+	ES_URL      = "http://10.182.0.2:9200"
 )
 
 var (
