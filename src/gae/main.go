@@ -21,7 +21,7 @@ import (
 const (
 	POST_INDEX  = "post"
 	DISTANCE    = "200km"
-	BUCKET_NAME = "weihou-bucket"
+	BUCKET_NAME = "peterhuang-bucket"
 	ES_URL      = "http://10.182.0.2:9200"
 )
 
