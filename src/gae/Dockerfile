@@ -1,9 +1,9 @@
-FROM golang:1.18.4
-LABEL image.authors="huangwh@seas.upenn.edu"
+FROM golang:1.18.4-alpine as builder
+WORKDIR /src
+ADD . /src
+RUN go build -o /app main.go user.go vision.go
 
+FROM alpine:3.14
 WORKDIR /app
-ADD . /app
-
-EXPOSE 8080
-CMD ["/usr/local/go/bin/go", "run", "main.go", "user.go", "vision.go"]
-
+COPY --from=builder /app /app
+CMD "./app"
