@@ -1,21 +1,22 @@
 package main
 
 import (
-	"cloud.google.com/go/storage"
 	"context"
 	"encoding/json"
 	"fmt"
-	jwtmiddleware "github.com/auth0/go-jwt-middleware"
-	jwt "github.com/dgrijalva/jwt-go"
-	"github.com/gorilla/mux"
-	"github.com/olivere/elastic"
-	"github.com/pborman/uuid"
 	"io"
 	"log"
 	"net/http"
 	"path/filepath"
 	"reflect"
 	"strconv"
+
+	"cloud.google.com/go/storage"
+	jwtmiddleware "github.com/auth0/go-jwt-middleware"
+	jwt "github.com/form3tech-oss/jwt-go"
+	"github.com/gorilla/mux"
+	"github.com/olivere/elastic"
+	"github.com/pborman/uuid"
 )
 
 const (
