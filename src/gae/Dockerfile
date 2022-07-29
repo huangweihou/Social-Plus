@@ -1,17 +1,9 @@
-FROM golang:1.13.4
-MAINTAINER huangwh@seas.upenn.edu
+FROM golang:1.18.4-alpine as builder
+WORKDIR /src
+ADD . /src
+RUN go build -o /app main.go user.go vision.go
 
-WORKDIR /go/src/around
-ADD . /go/src/around
-
-RUN go get cloud.google.com/go/storage
-RUN go get cloud.google.com/go/vision/apiv1 
-RUN go get github.com/auth0/go-jwt-middleware
-RUN go get github.com/dgrijalva/jwt-go
-RUN go get github.com/gorilla/mux
-RUN go get github.com/pborman/uuid
-RUN go get github.com/olivere/elastic
-
-EXPOSE 8080
-CMD ["/usr/local/go/bin/go", "run", "main.go", "user.go", "vision.go"]
-
+FROM alpine:3.16
+WORKDIR /app
+COPY --from=builder /app /app
+CMD "./app"
