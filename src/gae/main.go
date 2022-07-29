@@ -23,7 +23,7 @@ const (
 	POST_INDEX  = "post"
 	DISTANCE    = "200km"
 	BUCKET_NAME = "peterhuang-bucket"
-	ES_URL      = "http://10.182.0.2:9200"
+	ES_URL      = "http://10.182.0.3:9200"
 )
 
 var (
