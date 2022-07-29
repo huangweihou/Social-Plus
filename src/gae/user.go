@@ -9,7 +9,7 @@ import (
 	"time"
 
 	jwt "github.com/dgrijalva/jwt-go"
-	"github.com/olivere/elastic"
+	"github.com/olivere/elastic/v7"
 )
 
 const (

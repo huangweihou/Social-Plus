@@ -15,7 +15,7 @@ import (
 	jwtmiddleware "github.com/auth0/go-jwt-middleware"
 	jwt "github.com/form3tech-oss/jwt-go"
 	"github.com/gorilla/mux"
-	"github.com/olivere/elastic"
+	"github.com/olivere/elastic/v7"
 	"github.com/pborman/uuid"
 )
 
@@ -23,7 +23,7 @@ const (
 	POST_INDEX  = "post"
 	DISTANCE    = "200km"
 	BUCKET_NAME = "peterhuang-bucket"
-	ES_URL      = "http://10.182.0.3:9200"
+	ES_URL      = "http://10.182.0.4:9200"
 )
 
 var (

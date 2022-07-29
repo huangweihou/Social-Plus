@@ -4,13 +4,13 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/olivere/elastic"
+	"github.com/olivere/elastic/v7"
 )
 
 const (
 	POST_INDEX = "post"
 	USER_INDEX = "user"
-	ES_URL     = "http://10.182.0.3:9200"
+	ES_URL     = "http://10.182.0.4:9200"
 )
 
 func main() {
