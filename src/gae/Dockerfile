@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 FROM golang:1.18.4-alpine as builder
 WORKDIR /src
 ADD . /src
