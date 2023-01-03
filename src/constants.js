@@ -1,5 +1,5 @@
 export const TOKEN_KEY = "TOKEN_KEY";
-export const API_ROOT = "https://around-357613.uw.r.appspot.com";
+export const API_ROOT = "https://river-messenger-373603.de.r.appspot.com";
 
 export const GEO_OPTIONS = {
   enableHighAccuracy: true,
