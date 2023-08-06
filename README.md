@@ -9,10 +9,7 @@ Let's post pictures and videos on this social web application!
 
 ```
 
-<video controls width="400">
-    <source src="https://github.com/huangweihou/Social-Plus/blob/f80f8384a8386a693e222ccb368ce105ccc49f86/labrador.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
+![Cannot Found](https://github.com/huangweihou/Social-Plus/blob/8f3986fd2dae80357e7604621d34592af3550766/what-a-sunny-day.gif)
 
 
 https://huangweihou.github.io/Social-Plus/
