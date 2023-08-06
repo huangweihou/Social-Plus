@@ -8,8 +8,7 @@ Let's post pictures and videos on this social web application!
 3. Find out who posts some faces onto the social network.
 
 ```
-
-![Cannot Found](https://github.com/huangweihou/Social-Plus/blob/8f3986fd2dae80357e7604621d34592af3550766/what-a-sunny-day.gif)
-
-
 https://huangweihou.github.io/Social-Plus/
+
+First you can register with your username and password
+![Register](https://github.com/huangweihou/Social-Plus/blob/9fa7ceab20a69a02add8f1a00e0eae2608d6fd9f/readme%20file/register.gif)
