@@ -7,7 +7,6 @@ Let's post pictures and videos on this social web application!
 2. You can search nearby post(image and videos) around you.
 
 ```
-https://huangweihou.github.io/Social-Plus/
 
 Register with your username and password
 ![Register](https://github.com/huangweihou/Social-Plus/blob/b7c48fceaa0bb36763581e2a7d2cd0efd87ed5b5/readme%20file/register2x.gif)
